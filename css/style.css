@@ -1,0 +1,346 @@
+*{margin:0; padding:0;}
+ul{list-style: none;}
+a{text-decoration: none; color:#000;}
+body{font-family: '나눔스퀘어';}
+
+.headerwidth{background: url(../images/banner.png)no-repeat top center;
+width: 100%; height: 1400px;
+margin-bottom: 200px;}
+#header{width:1320px; margin:0 auto; height:147px;
+
+}
+.logo{float:left; padding:20px 0;}
+.nav{float:right;}
+.nav li{float:left;}
+.nav li a{display:block;
+  padding:70px 65px 0px 55px;
+        font-weight: bold; font-size: 24px; color: black;
+}
+.nav li a:hover {color:brown;}
+
+
+
+.date{width: 1320px; margin: 0 auto; text-align: center;
+margin-top: 30px;}
+.date h1{padding-bottom: 20px; font-size: 30px;}
+
+.images{clear: both; height: 300px;
+width: 1320px; margin: 0 auto; position: relative;}
+.images1{position: absolute; left: 537px;}
+.images2{position: absolute; top: 220px; left: 356px;}
+
+
+
+
+
+
+
+
+.all{position: relative; margin-top: 100px;}
+.rooms{width: 1320px; margin: 0 auto; text-align: center;
+margin-top: 200px;}
+.rooms h1{font-size: 64px; padding-bottom: 50px;}
+.rooms p{font-size: 30px;}
+.text{position:absolute; top:-30px;left:1200px}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+
+
+.container {width: 1320px; margin: 0 auto;
+        position: relative;
+      }
+      
+      /* Hide the images by default */
+      .container> div:first-child{
+              display:block;
+      }
+      .mySlides {width: 880px;height: 470px;
+        display: none;
+      }
+      
+      /* Add a pointer when hovering over the thumbnail images */
+      .cursor {
+        cursor: pointer;
+      }
+      
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        margin-top: -30px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+     }
+      
+      /* Position the "next button" to the right */
+      .next {
+        left: 837px;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* Container for image text */
+      .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 16px;
+        color: white;
+      }
+      .caption2-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 16px;
+        color: white;
+      }
+      
+      .caption3-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 16px;
+        color: white;
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Six columns side by side */
+      .column {
+        float: left;
+        width: 16.66%;
+      }
+      
+      /* Add a transparency effect for thumnbail images */
+      .demo {
+        opacity: 0.6;
+      }
+      
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+      
+      /* .all{position: relative; margin-top: 200px;} */
+      .text{position:absolute; top:-30px;left:1200px}
+
+
+      /* container2 시작 */
+
+
+
+      .container2 {width: 1320px; margin: 0 auto;
+        position: relative;
+      }
+      
+      /* Hide the images by default */
+      .container2> div:first-child{
+              display:block;
+      }
+      .mySlides2{width: 880px;height: 470px;
+        display: none;
+      }
+      
+      /* Add a pointer when hovering over the thumbnail images */
+      .cursor2 {
+        cursor: pointer;
+      }
+      
+      /* Next & previous buttons */
+      .prev2,
+      .next2 {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        margin-top: -30px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+     }
+      
+      /* Position the "next button" to the right */
+      .next2 {
+        left: 837px;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev2:hover,
+      .next2:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext2 {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* Container for image text */
+      .caption-container2 {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 16px;
+        color: white;
+      }
+      
+       .row2:after {
+        content: "";
+        display: table;
+        clear: both; 
+      }
+      
+      /* Six columns side by side */
+      .column2 {
+        float: left;
+        width: 16.66%;
+      }
+      
+      /* Add a transparency effect for thumnbail images */
+      .demo2 {
+        opacity: 0.6;
+      }
+      
+      .active,
+      .demo2:hover {
+        opacity: 1;
+      }
+
+/*con뭐시기 시작333333333333 */
+
+
+
+.container3 {width: 1320px; margin: 0 auto;
+        position: relative;
+      }
+      
+      /* Hide the images by default */
+      .container3> div:first-child{
+              display:block;
+      }
+      .mySlides3 {width: 880px;height: 470px;
+        display: none;
+      }
+      
+      /* Add a pointer when hovering over the thumbnail images */
+      .cursor3 {
+        cursor: pointer;
+      }
+      
+      /* Next & previous buttons */
+      .prev3,
+      .next3 {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        margin-top: -30px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+     }
+      
+      /* Position the "next button" to the right */
+      .next3 {
+        left: 837px;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev3:hover,
+      .next3:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext3 {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* Container for image text */
+      .caption-container3 {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 16px;
+        color: white;
+      }
+      
+       .row3:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Six columns side by side */
+      .column3 {
+        float: left;
+        width: 16.66%;
+      }
+      
+      /* Add a transparency effect for thumnbail images */
+      .demo3 {
+        opacity: 0.6;
+      }
+      
+      .active,
+      .demo3:hover {
+        opacity: 1;
+      }
+
+
+
+      .footer{width: 100%; height: 255px; background-color: #373737;
+        margin-top: 150px;}
+        .footertext{width: 1320px; margin: 0 auto;
+                text-align: center; padding-top: 30px; position: relative;}
+                .footertext h3{color: white; font-size: 30px;}
+.fologo{float: left;}
+.fotright{float: right;}
+.fotright ul li{float: left;}
+.fotright ul li a{display: block; padding-left: 50px;}
+.p1{color: #dedede; padding: 10px 0; position: absolute; top: 70px; left: 485px;}
+.p2{clear: both; line-height: 28px; text-align: left;
+color: #dedede; position: absolute; top: 120px; left: 400px;}
+.c2{color: white; font-weight: bold;}
+
+      
